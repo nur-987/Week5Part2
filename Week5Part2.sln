@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountDays", "CountDays\Coun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamApp", "ExamApp\ExamApp.csproj", "{A3F271C7-15AF-4E70-BD85-41D55E23ACCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSoftware", "BookingSoftware\BookingSoftware.csproj", "{AED545AF-2547-472A-BBDC-9C40A1735DBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A3F271C7-15AF-4E70-BD85-41D55E23ACCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3F271C7-15AF-4E70-BD85-41D55E23ACCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3F271C7-15AF-4E70-BD85-41D55E23ACCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED545AF-2547-472A-BBDC-9C40A1735DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED545AF-2547-472A-BBDC-9C40A1735DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED545AF-2547-472A-BBDC-9C40A1735DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED545AF-2547-472A-BBDC-9C40A1735DBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

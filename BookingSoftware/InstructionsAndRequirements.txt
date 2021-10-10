@@ -1,0 +1,32 @@
+﻿Instruction:
+
+I want to design a room booking software for my hotel, so that all my bookings will be transparent for taxation . 
+And  I can search the data to find a customer
+
+Requirement: 
+
+1) Customer Information:
+name
+hpnumber
+type of room booked
+new customer?
+
+Save info of previous customer
+
+2) Room Information
+types of room 
+prices
+description (amenities in the room to display)
+
+Once booked cannot be booked again until period of stay is over
+
+3) Bill information
+payment type
+paid?
+CustomerId
+RoomId
+Duration staying
+
+
+3) Search function 
+search by customer name
