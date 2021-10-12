@@ -55,10 +55,17 @@ namespace BookingSoftware
         {
             Bill newBill = new Bill();
 
+            if (newBill.Paid)
+            {
+                Console.WriteLine("room has ben paid!");
+            }
+
+
             newBill.CustomerId_Bill = CustList.Find(x => x.CustomerID == custId);
 
             Room room_RoomId = RoomsList.Find(x => x.RoomID == roomId);
             newBill.RoomPrice_Bill = room_RoomId;
+            //find room price where the cust id and room id matches
 
             newBill.NightsStaying = nights;
 

@@ -17,5 +17,6 @@ namespace BookingSoftware
         public int RoomPrice { get; set; }
         public string RoomDescription { get; set; }
         public bool Available { get; set; }
+
     }
 }
